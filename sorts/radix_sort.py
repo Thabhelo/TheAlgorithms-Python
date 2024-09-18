@@ -17,8 +17,7 @@ def radixsort(lst):
       # empty lists into lst array
       a = 0
       for b in range( RADIX ):
-        buck = buckets[b]
-        for i in buck:
+        for i in buckets[b]:
           lst[a] = i
           a += 1
 
